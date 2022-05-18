@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  font-size: 2.4rem;
+  background: white;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.app__wrapper {
+  margin: 32rem;
+  padding: 2rem;
+  border: 2px solid tomato;
+  border-radius: 1rem;
+}
+
+.app__heading {
+  font-size: 2.4rem;
+  color: #1f8fff;
+}
+
+.app__form {
+  padding: 4rem;
+}
+
+.app__form input {
+  font-size: 3.2rem;
+  padding: 1.6rem 2rem;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.app__form.invalid input {
+  border-color: tomato;
+  background: #fff5f7;
+}
+
+.app__form.invalid input:hover {
+  background: none;
+}
+
+.app__form button {
+  font-size: 1.6rem;
+  padding: 1rem 1.2rem;
+}
+
+.app__form span {
+  margin-top: 4rem;
+}
+
+.app__form.invalid span {
+  color: red;
+}
+
+.app__result {
+  padding: 0 4rem;
+}
+/*# sourceMappingURL=style.css.map */
