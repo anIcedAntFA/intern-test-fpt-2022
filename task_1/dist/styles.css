@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.6rem;
+  background-image: url("/task_1/assets/img/1.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 81rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2.4rem;
+          column-gap: 2.4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.app__wrapper {
+  margin: 4rem 16rem;
+  padding: 4rem 16rem;
+}
+
+.app__title {
+  position: relative;
+  font-size: 4.8rem;
+  color: #ff5024;
+}
+
+.app__title::after {
+  content: '';
+  position: absolute;
+  left: 48%;
+  right: 47%;
+  bottom: -1.6rem;
+  height: 4px;
+  background: #ff5024;
+}
+
+.app__description,
+.card__wrapper {
+  margin-top: 3.6rem;
+}
+
+.card__item {
+  padding: 1.4rem;
+  width: calc(100% / 3);
+  border: 1px solid #cccccc;
+  background: white;
+}
+
+.card__img {
+  width: 100%;
+  max-width: 24rem;
+  height: 24rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__title,
+.card__description {
+  margin-top: 1.6rem;
+}
+
+.card__description {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.app__btn {
+  margin-top: 4.8rem;
+}
+
+.app__btn a {
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  background: #ff5024;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
